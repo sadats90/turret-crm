@@ -1,0 +1,1 @@
+<?php $last_line = system('git --version', $retval); ?>

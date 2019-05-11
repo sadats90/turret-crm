@@ -1,0 +1,22 @@
+div#login-logo {
+    background: #5a9bd5 !important;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+div#login-logo .color-white {
+    color: #ffffff;
+}
+
+main#login{
+	padding-top: 2rem;
+}
+
+.login-wrapper
+{
+	background: #5a9bd50d;
+}
+.btn-login
+{
+	background: #5a9bd5;
+}

@@ -1,0 +1,53 @@
+
+
+
+.login-logo
+{
+	position: relative;
+    margin: 0 auto;
+    width: 120px;
+    display: block;
+    padding-top: 50px;
+}
+
+.custom-scrollbar
+{
+	height: 700px;
+	overflow-y: scroll;
+}
+
+.md-form label
+{
+	right: 0 !important;
+	left: auto;
+}
+
+.modal-dialog
+{
+	max-width: 75% !important;
+}
+
+table.table td, table.table th {
+    padding-top: .1rem !important;
+    padding-bottom: .1rem !important;
+    vertical-align: middle !important;
+}
+
+table.dataTable tbody th, table.dataTable tbody td
+{
+    padding: 1px 10px !important;
+    vertical-align: middle !important;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before
+{
+    top: 2px !important;
+    left: -10px !important;
+}
+div#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    background: rgba(0,0,0,.8);
+    color: white;
+}

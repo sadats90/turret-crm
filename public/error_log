@@ -1,0 +1,287 @@
+[13-Nov-2018 08:44:51 UTC] PHP Warning:  Unterminated comment starting line 522 in /home/turretglobal/public_html/pos/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 522
+[13-Nov-2018 08:44:51 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/turretglobal/public_html/pos/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php on line 523
+[27-Nov-2018 01:42:47 Asia/Dhaka] PHP Fatal error:  Cannot use [] for reading in /home/turretglobal/public_html/pos/storage/framework/views/9a5bc34a03995c9620b0fa76b7604add76b976c7.php on line 87
+[20-Dec-2018 14:42:19 Asia/Dhaka] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined property: stdClass::$Discount (View: /home/turretglobal/public_html/pos/resources/views/master/sales_transmission_report/sales_transmission_report_pdf.blade.php) in /home/turretglobal/public_html/pos/vendor/dompdf/dompdf/src/Dompdf.php on line 424
+[25-Dec-2018 15:40:35 Asia/Dhaka] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined variable: fw_qty (View: /home/turretglobal/public_html/pos/resources/views/master/inventoryreport/pdf_by_all_cat.blade.php) in /home/turretglobal/public_html/pos/vendor/dompdf/dompdf/src/Dompdf.php on line 424
+[26-Dec-2018 18:10:51 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 18:11:15 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 18:17:03 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 18:17:07 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 18:23:26 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 18:28:23 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 18:28:26 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:04:38 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:28:09 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:28:19 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:30:03 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:30:47 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:53:01 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:55:18 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:55:36 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:55:44 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:55:52 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 19:56:19 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[26-Dec-2018 23:51:36 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[27-Dec-2018 09:51:38 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[27-Dec-2018 10:16:20 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOStatement.php on line 183
+[28-Dec-2018 10:15:02 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/turretglobal/public_html/pos/vendor/dompdf/dompdf/src/Css/Style.php on line 843
+[03-Jan-2019 15:58:33 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 13:52:30 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 13:52:35 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 13:52:37 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 15:08:15 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 15:08:20 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 16:06:45 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 16:08:29 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 16:08:32 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[04-Jan-2019 16:08:36 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 10502144 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 161
+[21-Jan-2019 17:16:20 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[21-Jan-2019 17:25:22 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[23-Jan-2019 09:29:04 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[23-Jan-2019 14:33:35 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[23-Jan-2019 15:10:31 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[23-Jan-2019 15:50:34 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[23-Jan-2019 17:39:33 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/InventoryController.php on line 22
+[23-Jan-2019 17:39:45 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/InventoryController.php on line 22
+[23-Jan-2019 17:40:27 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/InventoryController.php on line 22
+[23-Jan-2019 17:42:09 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 158
+[23-Jan-2019 17:43:41 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 158
+[24-Jan-2019 10:08:54 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 158
+[24-Jan-2019 11:19:37 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[24-Jan-2019 11:47:41 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[24-Jan-2019 11:50:47 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/DispatchController.php on line 11
+[24-Jan-2019 11:50:57 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/DispatchController.php on line 11
+[24-Jan-2019 11:51:10 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/DispatchController.php on line 11
+[24-Jan-2019 11:51:40 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/DispatchController.php on line 11
+[24-Jan-2019 11:51:45 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[24-Jan-2019 11:51:46 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[24-Jan-2019 11:51:57 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/DispatchController.php on line 11
+[24-Jan-2019 11:52:12 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[24-Jan-2019 11:52:16 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ReceiveController.php on line 11
+[24-Jan-2019 11:54:01 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/DispatchController.php on line 11
+[24-Jan-2019 11:54:10 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/DispatchController.php on line 11
+[24-Jan-2019 14:25:33 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 163
+[26-Jan-2019 12:57:20 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ExpensesBookingController.php on line 14
+[28-Jan-2019 14:37:29 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ExpensesBookingController.php on line 14
+[29-Jan-2019 10:45:01 Asia/Dhaka] PHP Fatal error:  Cannot use Session as Session because the name is already in use in /home/turretglobal/public_html/pos/app/Http/Controllers/ExpensesBookingController.php on line 14
+[29-Jan-2019 15:22:49 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 163
+[29-Jan-2019 15:22:57 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 163
+[29-Jan-2019 15:23:05 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 163
+[30-Jan-2019 11:57:09 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 164
+[02-Feb-2019 11:18:43 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) in /home/turretglobal/public_html/pos/vendor/dompdf/dompdf/src/Cellmap.php on line 586
+[09-Feb-2019 00:03:13 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 23085056 bytes) in /home/turretglobal/public_html/pos/storage/framework/views/2f418be98dc23c190f184beca9e4b518ce8ef6af.php on line 164
+[11-Feb-2019 15:33:39 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:33:39 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:34:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:34:53 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:35:12 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:35:12 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:35:18 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:35:18 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:35:22 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:35:22 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:36:23 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:36:23 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:36:24 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:36:24 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:36:24 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:36:24 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:37:35 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:37:35 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:37:41 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:37:41 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:37:57 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:37:57 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:39:15 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:39:15 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:39:16 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:39:16 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:39:19 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:39:19 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:39:23 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:39:23 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:39:25 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:39:25 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:39:38 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:39:38 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:39:48 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:39:48 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:40:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:40:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:40:04 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:40:04 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:40:21 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:40:21 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:40:23 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:40:23 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:40:24 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:40:24 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:40:55 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:40:55 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:41:17 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:41:17 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:41:36 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:41:36 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:41:37 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:41:37 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:42:48 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:42:48 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:42:51 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:42:51 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:45:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:45:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:45:41 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:45:41 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:46:42 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:46:42 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:47:22 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:47:22 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:48:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:48:06 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:48:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:48:08 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:48:16 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:48:16 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:48:20 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:48:20 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:48:37 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home/turretglobal/public_html/pos/vendor/symfony/http-kernel/Exception/HttpException.php on line 24
+[11-Feb-2019 15:48:37 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:05 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:05 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:08 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:09 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:09 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:11 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:11 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:12 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:12 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:18 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:18 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:21 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:21 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:50:49 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:50:49 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:51:03 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:51:03 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:51:25 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:51:25 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:51:46 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:51:46 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:52:01 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:52:01 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:52:09 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:52:09 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:54:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:54:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:54:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:54:08 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:54:26 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:54:26 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:54:26 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:54:26 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:54:31 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:54:31 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:55:32 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:55:32 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:55:39 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:55:39 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:56:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:56:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:56:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:56:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:57:59 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:57:59 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:58:31 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:58:31 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:58:50 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:58:50 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:58:51 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:58:51 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:59:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:59:06 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 15:59:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 15:59:08 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:02:24 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:02:24 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:06:35 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:06:35 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:06:41 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:06:41 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:11:11 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:11:11 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:12:27 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:12:27 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:12:37 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:12:37 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:15:39 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:15:39 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:18:04 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:18:04 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:19:40 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:19:40 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:20:50 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:20:50 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:20:58 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:20:58 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:22:59 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:22:59 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:26:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:26:07 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:26:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:26:08 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:26:13 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:26:13 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:26:47 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:26:47 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:28:11 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:28:11 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:28:13 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:28:13 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:29:50 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:29:50 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:35:14 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:35:14 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:35:31 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:35:31 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:35:52 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:35:52 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:36:11 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:36:11 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:36:45 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:36:45 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:36:50 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:36:50 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:37:00 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:37:00 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:37:06 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:37:06 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:38:32 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:38:32 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:39:08 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:39:08 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:39:56 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:39:56 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:40:03 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:40:03 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:41:03 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:41:03 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:44:22 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:44:22 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:45:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:45:53 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:46:48 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:46:48 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:46:53 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:46:53 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:47:05 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:47:05 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 16:49:09 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 16:49:09 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[11-Feb-2019 17:02:05 Asia/Dhaka] PHP Parse error:  syntax error, unexpected '?' in /home/turretglobal/public_html/pos/vendor/symfony/http-foundation/Response.php on line 501
+[11-Feb-2019 17:02:05 Asia/Dhaka] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[17-Feb-2019 19:25:42 Asia/Dhaka] PHP Fatal error:  Method Illuminate\View\View::__toString() must not throw an exception, caught ErrorException: Undefined property: stdClass::$Emp_Name (View: /home/turretglobal/public_html/pos/resources/views/master/sales_report/cashier_pdf.blade.php) in /home/turretglobal/public_html/pos/vendor/dompdf/dompdf/src/Dompdf.php on line 424
+[19-Feb-2019 12:32:05 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 17296464 bytes) in /home/turretglobal/public_html/pos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 50
+[19-Feb-2019 12:32:16 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 17296464 bytes) in /home/turretglobal/public_html/pos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 50
+[20-Feb-2019 13:49:49 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 17297472 bytes) in /home/turretglobal/public_html/pos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 50
+[20-Feb-2019 13:50:11 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 17297472 bytes) in /home/turretglobal/public_html/pos/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php on line 50

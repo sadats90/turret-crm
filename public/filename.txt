@@ -1,0 +1,6 @@
+sales_mst_code
+Store_Code
+Customer_Id
+count_line
+Total_Qty
+Total_Value
