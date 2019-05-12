@@ -14,7 +14,11 @@
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('slider');
+});
+
+Route::get('/slider', function () {
+    return view('slider2');
 });
 
 
