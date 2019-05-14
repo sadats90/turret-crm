@@ -13,9 +13,9 @@
 
 
 
-Route::get('/', function () {
-    return view('slider');
-});
+Route::resource('campaign', 'CampaignManagerController');
+
+
 
 Route::get('/slider', function () {
     return view('slider2');
