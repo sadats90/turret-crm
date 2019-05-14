@@ -10,41 +10,42 @@
   <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-<div class="wrapper">
-  <div class="container">
-    <h4 style="color:red;">Campaign Manager:<span>Search Customer By sales data</span></h4>
-    <hr>
-    <br>
+  <div class="wrapper">
+    <div class="container">
+      <h4 style="color:red;">Campaign Manager:<span>Search Customer By sales data</span></h4>
+      <hr>
+      <br>
 
 
 
-    <div class="row">
-      <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-6">
 
-        <div data-role="header">
-          <h1><i class="fa fa-shopping-cart" style="font-size:28px"></i>   Buying Power</h1>
-        </div>
+          <div data-role="header">
+            <h1><i class="fa fa-shopping-cart" style="font-size:28px"></i>   Buying Power</h1>
+          </div>
 
-        <div data-role="main" class="ui-content">
-          <form method="post" action="/action_page_post.php">
-            <div data-role="rangeslider">
-              <label for="price-min">Average Basket Size:</label>
-              <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
-              <label for="price-max">Price:</label>
-              <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
-            </div>
-            <div data-role="rangeslider">
-              <label for="price-min">Average Basket Value:</label>
-              <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000000">
-              <label for="price-max">Price:</label>
-              <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000000">
-            </div>
-            <div data-role="rangeslider">
-              <label for="price-min">Total Buying In Period:</label>
-              <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
-              <label for="price-max">Price:</label>
-              <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
-            </div>
+          <div data-role="main" class="ui-content">
+            <form method="post" action="/action_page_post.php">
+
+              <div data-role="rangeslider">
+                <label for="price-min">Average Basket Size:</label>
+                <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
+                <label for="price-max">Price:</label>
+                <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+              </div>
+              <div data-role="rangeslider">
+                <label for="price-min">Average Basket Value:</label>
+                <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000000">
+                <label for="price-max">Price:</label>
+                <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000000">
+              </div>
+              <div data-role="rangeslider">
+                <label for="price-min">Total Buying In Period:</label>
+                <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
+                <label for="price-max">Price:</label>
+                <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+              </div>
          <!--    <input type="submit" data-inline="true" value="Submit">
 
          </form> -->
@@ -57,19 +58,19 @@
       </div>
 
       <div data-role="main" class="ui-content">
-        <form method="post" action="/action_page_post.php">
-          <div data-role="rangeslider">
-            <label for="price-min">Min Number Of Visits in last 3 months:</label>
-            <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
-            <label for="price-max">Price:</label>
-            <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
-          </div>
-          <div data-role="rangeslider">
-            <label for="price-min">Last visit within how many months:</label>
-            <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
-            <label for="price-max">Price:</label>
-            <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
-          </div>
+
+        <div data-role="rangeslider">
+          <label for="price-min">Min Number Of Visits in last 3 months:</label>
+          <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
+          <label for="price-max">Price:</label>
+          <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+        </div>
+        <div data-role="rangeslider">
+          <label for="price-min">Last visit within how many months:</label>
+          <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
+          <label for="price-max">Price:</label>
+          <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+        </div>
             <!-- <input type="submit" data-inline="true" value="Submit">
 
             </form> -->
@@ -85,84 +86,91 @@
           </div>
 
           <div data-role="main" class="ui-content">
-            <form method="post" action="/action_page_post.php">
-              <!-- for select -->
-              <div class="row">
-                <div class="col-md-4">
 
-                 <label>Gender</label>
-                 <select  name="" id="">
-                  <option value="1"></option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                </select>
-                
-              </div>
+            <!-- for select -->
+            <div class="row">
               <div class="col-md-4">
 
-               <label>Size</label>
-               <select  name="sort" id="sort">
-                <option value="1"></option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
+               <label>Gender</label>
+               <select >
+                <option value="1">Selct</option>
+                @foreach($gender as $g)
+                <option>{{$g->GenderNAME}}</option>
+                @endforeach
+
               </select>
 
             </div>
             <div class="col-md-4">
 
-             <label>Color</label>
-             <select  name="sort" id="sort">
-              <option value="1"></option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
+             <label>Size</label>
+             
+             <select>
+
+              <option>Select</option>
+              @foreach($size as $s)
+              <option>{{$s->Size_Code}}</option>
+              @endforeach
             </select>
 
           </div>
           <div class="col-md-4">
-            <label>Brand</label>
-
-            <select  name="sort" id="sort">
-
-              <option value="1"></option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-            </select>
-
-          </div>
-          <div class="col-md-4">
-
-           <label>Category</label>
+           
+              
+            
+           <label>Color</label>
            <select  name="sort" id="sort">
-            <option value="1"></option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
+            @foreach($colors as $color)
+            <option>Select</option>
+            <option>
+              {{$color}}
+            </option>
+            @endforeach
+          </select>
+
+        </div>
+        <div class="col-md-4">
+          <label>Brand</label>
+
+
+          <select>
+            <option>Select</option>
+            @foreach($brand as $b)
+            <option>{{$b->Brand_Name}}</option>
+            @endforeach
           </select>
 
         </div>
         <div class="col-md-4">
 
-         <label>Sub Category</label>
-         <select  name="sort" id="sort">
-          <option value="1"></option>
-          <option value="12">12</option>
-          <option value="13">13</option>
-          <option value="14">14</option>
+         <label>Category</label>
+         <select>
+          <option >Select</option>
+          @foreach($cat as $c)
+          <option>{{$c->Category_Name}}</option>
+          @endforeach
         </select>
 
       </div>
+      <div class="col-md-4">
+
+       <label>Sub Category</label>
+       <select>
+        <option >Select</option>
+        @foreach($subcat as $sc)
+        <option>{{$sc->Sub_category_Name}}</option>
+        @endforeach
+      </select>
+
     </div>
-    <!-- for select -->
-    <div data-role="rangeslider">
-      <label for="price-min">Price:</label>
-      <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
-      <label for="price-max">Price:</label>
-      <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
-    </div>
+  </div>
+  <!-- for select -->
+  <div data-role="rangeslider">
+    <label for="price-min">Price:</label>
+    <input type="range" name="price-min" id="price-min" value="200" min="0" max="1000">
+    <label for="price-max">Price:</label>
+    <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+  </div>
 
            <!--  <input type="submit" data-inline="true" value="Submit">
 
@@ -178,76 +186,78 @@
         <div data-role="main" class="ui-content">
          <!--  <form method="post" action="/action_page_post.php"> -->
            <div class="row">
-                <div class="col-md-4">
-                  
-                 <label>Gender</label>
-                 <select  name="sort" id="sort">
-                  <option value="1"></option>
-                  <option value="12">12</option>
-                  <option value="13">13</option>
-                  <option value="14">14</option>
-                </select>
-                
-              </div>
-              <div class="col-md-4">
-                
-              
-              
-            </div>
-            <div class="col-md-4">
-              
-            
-            
-          </div>
+            <div class="col-md-6">
 
-          <div class="col-md-3"><br>
-            <h6>Area of Transaction</h6></div>
-          <div class="col-md-3">
+             <label>Gender</label>
+             <select >
+              <option >Selct</option>
+              @foreach($gender as $g)
+              <option>{{$g->GenderNAME}}</option>
+              @endforeach
 
-            <label>Brand</label>
-            
-            <select  name="sort" id="sort">
-
-              <option value="1"></option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
             </select>
-            
+
+
           </div>
-          <div class="col-md-3">
-            
-           <label>Category</label>
-           <select  name="sort" id="sort">
-            <option value="1"></option>
-            <option value="12">12</option>
-            <option value="13">13</option>
-            <option value="14">14</option>
+          <!-- <div class="col-md-4">
+
+
+
+          </div>
+          <div class="col-md-4">
+
+
+
+          </div> -->
+
+          <!-- <div class="col-md-3"><br>
+            <h6>Area of Transaction</h6>
+          </div> -->
+            <div class="col-md-6">
+
+              <label>Brand</label>
+
+              <select>
+                <option>Select</option>
+                @foreach($brand as $b)
+                <option>{{$b->Brand_Name}}</option>
+                @endforeach
+              </select>
+
+            </div>
+            <div class="col-md-6">
+
+             <label>Category</label>
+                <select>
+            <option >Select</option>
+            @foreach($cat as $c)
+            <option>{{$c->Category_Name}}</option>
+            @endforeach
           </select>
-          
-        </div>
-        <div class="col-md-3">
-          
-         <label>Sub Cat</label>
-         <select  name="sort" id="sort">
-          <option value="1"></option>
-          <option value="12">12</option>
-          <option value="13">13</option>
-          <option value="14">14</option>
-        </select>
-        
-      </div>
 
-      <button type="submit" class="btn btn-primary">Deploy Filters</button>
-    </div>
-            <!-- <input type="submit" data-inline="true" value="Submit">
-
-            </form> -->
           </div>
+          <div class="col-md-6">
+
+           <label>Sub Cat</label>
+        <select>
+        <option >Select</option>
+        @foreach($subcat as $sc)
+        <option>{{$sc->Sub_category_Name}}</option>
+        @endforeach
+      </select>
+
         </div>
 
+        <button type="submit" class="btn btn-primary">Deploy Filters</button>
       </div>
-    </div>
+      <!-- <input type="submit" data-inline="true" value="Submit">
+ -->
+    </form>
+  </div>
+</div>
+
+</div>
+</div>
 
 
 <!-- table -->
@@ -287,17 +297,17 @@
 <!-- table -->
 </div>
 
-  </body>
+</body>
 
-  <style type="text/css">
-    .wrapper {
-  margin-right: auto; /* 1 */
-  margin-left:  auto; /* 1 */
+<style type="text/css">
+  .wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
 
-  max-width: 920px; /* 2 */
-  height: 60%;
-  padding-right: 10px; /* 3 */
-  padding-left:  10px; /* 3 */
-}
-  </style>
-  </html>
+    max-width: 920px; /* 2 */
+    height: 60%;
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  }
+</style>
+</html>

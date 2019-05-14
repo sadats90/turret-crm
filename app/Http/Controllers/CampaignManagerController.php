@@ -3,6 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Brand;
+use App\Category;
+use App\SubCategory;
+use App\Size;
+use App\Gender;
+
 
 class CampaignManagerController extends Controller
 {
@@ -13,7 +19,16 @@ class CampaignManagerController extends Controller
      */
     public function index()
     {
-        return view ('slider');
+        $brand = Brand::all();
+        $size = Size::all();
+        $gender = Gender::all();
+        $cat= Category::all();
+        $subcat = SubCategory::all();
+        $colors = array("Red","Blue","Yellow","Green","Black","Brown","Grey","White");
+        return view ('slider',["brand"=>$brand,"size"=>$size,"gender"=>$gender,"cat"=>$cat,"subcat"=>$subcat,"colors"=>$colors]);
+
+       
+
     }
 
     /**
