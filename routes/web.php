@@ -27,7 +27,7 @@ Route::get('/index', function () {
 });
 
 Route::post('/new', function () {
-    return "sdfs";
+    return view('new');
 });
 
 
