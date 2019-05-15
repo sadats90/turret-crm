@@ -10,10 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/campaign', 'CampaignManagerController@index');
+Route::post('/campaign', 'CampaignManagerController@index');
 
 
+// Route::resource('campaign', 'CampaignManagerController');
 
-Route::resource('campaign', 'CampaignManagerController');
 
 
 
@@ -22,13 +24,11 @@ Route::get('/slider', function () {
 });
 
 
-Route::get('/index', function () {
-    return view('index');
-});
 
-Route::post('/new', function () {
-    return view('new');
-});
+// Route::post('/campaign', function () {
+//     return view('new');
+// });
+
 
 
 

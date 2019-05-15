@@ -16,7 +16,7 @@
       <hr>
       <br>
 
-      <form class="form-group" method="POST" action="{{ url('new') }}" enctype="multipart/form-data">
+      <form class="form-group" method="POST" action="{{ url('campaign') }}">
         {{csrf_field()}}
 
         <div class="row">
