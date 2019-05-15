@@ -26,6 +26,10 @@ Route::get('/index', function () {
     return view('index');
 });
 
+Route::get('/new', function () {
+    return "sdfs";
+});
+
 
 
 Auth::routes();

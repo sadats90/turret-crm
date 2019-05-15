@@ -22,11 +22,12 @@
         <div class="col-md-6">
 
           <div data-role="header">
-            <h1><i class="fa fa-shopping-cart" style="font-size:28px"></i>   Buying Power</h1>
+            <h1><i class="fa fa-shopping-cart" style="font-size:28px"></i>Buying Power</h1>
           </div>
 
           <div data-role="main" class="ui-content">
-            <form method="post" action="/action_page_post.php">
+           <form class="form-group" method="POST" action="{{ url('new') }}" enctype="multipart/form-data">
+  {{csrf_field()}}
 
               <div data-role="rangeslider">
                 <label for="price-min">Average Basket Size:</label>
@@ -93,7 +94,7 @@
 
                <label>Gender</label>
                <select >
-                <option value="1">Selct</option>
+                <option >Selct</option>
                 @foreach($gender as $g)
                 <option>{{$g->GenderNAME}}</option>
                 @endforeach
@@ -115,9 +116,9 @@
 
           </div>
           <div class="col-md-4">
-           
-              
-            
+
+
+
            <label>Color</label>
            <select  name="sort" id="sort">
             @foreach($colors as $color)
@@ -213,45 +214,45 @@
           <!-- <div class="col-md-3"><br>
             <h6>Area of Transaction</h6>
           </div> -->
-            <div class="col-md-6">
+          <div class="col-md-6">
 
-              <label>Brand</label>
+            <label>Brand</label>
 
-              <select>
-                <option>Select</option>
-                @foreach($brand as $b)
-                <option>{{$b->Brand_Name}}</option>
-                @endforeach
-              </select>
+            <select>
+              <option>Select</option>
+              @foreach($brand as $b)
+              <option>{{$b->Brand_Name}}</option>
+              @endforeach
+            </select>
 
-            </div>
-            <div class="col-md-6">
+          </div>
+          <div class="col-md-6">
 
-             <label>Category</label>
-                <select>
+           <label>Category</label>
+           <select>
             <option >Select</option>
             @foreach($cat as $c)
             <option>{{$c->Category_Name}}</option>
             @endforeach
           </select>
 
-          </div>
-          <div class="col-md-6">
-
-           <label>Sub Cat</label>
-        <select>
-        <option >Select</option>
-        @foreach($subcat as $sc)
-        <option>{{$sc->Sub_category_Name}}</option>
-        @endforeach
-      </select>
-
         </div>
+        <div class="col-md-6">
 
-        <button type="submit" class="btn btn-primary">Deploy Filters</button>
+         <label>Sub Cat</label>
+         <select>
+          <option >Select</option>
+          @foreach($subcat as $sc)
+          <option>{{$sc->Sub_category_Name}}</option>
+          @endforeach
+        </select>
+
       </div>
-      <!-- <input type="submit" data-inline="true" value="Submit">
- -->
+
+      <button type="submit" value="submit" class="btn btn-primary">Deploy Filters</button>
+    </div>
+       
+    
     </form>
   </div>
 </div>
