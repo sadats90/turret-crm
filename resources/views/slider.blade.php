@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- script scource of this page but causes problm starts -->
+    <!-- script scource of this page but causes problem  -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <!-- script scource of this page but causes problm ends -->
@@ -33,9 +33,9 @@
 
                 <div data-role="rangeslider">
                   <label for="price-min">Average Basket Size:</label>
-                  <input type="range" name="abs_min"  value="200" min="0" max="1000">
+                  <input type="range" name="abs_min"  value="abs_min" min="0" max="1000">
                   <label for="price-max">Price:</label>
-                  <input type="range" name="abs_max"  value="800" min="0" max="1000">
+                  <input type="range" name="abs_max"  value="abs_max" min="0" max="1000">
                 </div>
                 <div data-role="rangeslider">
                   <label for="price-min">Average Basket Value:</label>
@@ -275,7 +275,7 @@
         <th scope="row">1</th>
         <td>Mark</td>
         <td>Otto</td>
-        <td>{{$abs_max}}</td>
+        <td></td>
         <td>@mdo</td>
       </tr>
       <tr>
@@ -294,7 +294,12 @@
   </table>
   <!-- table -->
   </div>
+<div class="container">
+  @foreach($abs as $s)
 
+    <?php echo $s->Customer_Id;  ?><br>  <br />
+  @endforeach
+</div>
   </body>
 
   <style type="text/css">

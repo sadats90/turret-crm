@@ -8,7 +8,7 @@ use App\Category;
 use App\SubCategory;
 use App\Size;
 use App\Gender;
-
+use Illuminate\Support\Facades\DB;
 
 class CampaignManagerController extends Controller
 {
@@ -19,7 +19,7 @@ class CampaignManagerController extends Controller
      */
     public function index(Request $request)
     {
-      
+
         $brand = Brand::all();
         $size = Size::all();
         $gender = Gender::all();
@@ -29,25 +29,31 @@ class CampaignManagerController extends Controller
         
 
 
-// dd($request->all());
+        // dd($request->all());
         $abs_max = $abs_min = $abv_min =$abv_max = $tbp_max = $tbp_min = $min_visit_max = $min_visit_min 
-        = $last_max = $last_min =  $prod_ch_min = $prod_ch_max = 0;
-        // if($request->isMethod('post'))
-        // {
-        //     dd($request->all());
-        // }
+        = $last_max = $last_min =  $prod_ch_min = $prod_ch_max = $abs = 0;
+       
 
 
+        $abs_max = $request->input('abs_max'); 
+        $abs_min = $request->input('abs_min');
 
-        $abs_max = $request->input('abs_max');    
-
-        return view ('slider',["brand"=>$brand,"size"=>$size,"gender"=>$gender,"cat"=>$cat,"subcat"=>$subcat,"colors"=>$colors,"abs_max"=>$abs_max,"abs_min"=>$abs_min, "abv_min"=> $abv_min,
-         "abv_max" =>$abv_max, "tbp_max"=> $tbp_max,"tbp_min" => $tbp_min,"min_visit_max" => $min_visit_max,
-         "min_visit_min"=> $min_visit_min, "last_max"
-         => $last_max,"last_min" => $last_min,"prod_ch_min" =>$prod_ch_min,"prod_ch_max" => $prod_ch_max]);
-
-
+        // dd($request->all());
+        // query for abs starts 
         
+        $sql =   "SELECT*FROM `sales_msts` WHERE `Customer_Id` IS NOT NULL AND `Total_Qty`>= ? AND `Total_Qty`<= ? ";
+
+        $abs = DB::select($sql,[$abs_min,$abs_max]);
+
+        // query for abs ends 
+     
+        return view ('slider',["brand"=>$brand,"size"=>$size,"gender"=>$gender,"cat"=>$cat,"subcat"=>$subcat,"colors"=>$colors,"abs_max"=>$abs_max,"abs_min"=>$abs_min, "abv_min"=> $abv_min,
+           "abv_max" =>$abv_max, "tbp_max"=> $tbp_max,"tbp_min" => $tbp_min,"min_visit_max" => $min_visit_max,
+           "min_visit_min"=> $min_visit_min, "last_max"
+           => $last_max,"last_min" => $last_min,"prod_ch_min" =>$prod_ch_min,"prod_ch_max" => $prod_ch_max,"abs"=>$abs]);
+
+
+           
 
     }
 
