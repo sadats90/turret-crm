@@ -33,15 +33,15 @@
 
                 <div data-role="rangeslider">
                   <label for="price-min">Average Basket Size:</label>
-                  <input type="range" name="abs_min"  value="abs_min" min="0" max="1000">
+                  <input type="range" name="abs_min"  value="abs_min" min="0" max="100">
                   <label for="price-max">Price:</label>
-                  <input type="range" name="abs_max"  value="abs_max" min="0" max="1000">
+                  <input type="range" name="abs_max"  value="abs_max" min="0" max="100">
                 </div>
                 <div data-role="rangeslider">
                   <label for="price-min">Average Basket Value:</label>
-                  <input type="range" name="abv_min"  value="200" min="0" max="1000">
+                  <input type="range" name="abv_min"  value="200" min="0" max="999999">
                   <label for="price-max">Price:</label>
-                  <input type="range" name="abv_max"  value="800" min="0" max="1000">
+                  <input type="range" name="abv_max"  value="800" min="0" max="999999">
                 </div>
                 <div data-role="rangeslider">
                   <label for="price-min">Total Buying In Period:</label>

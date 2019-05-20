@@ -29,7 +29,7 @@ class CampaignManagerController extends Controller
         
 
 
-       ssdd($request->all());
+        // dd($request->all());
         $abs_max = $abs_min = $abv_min =$abv_max = $tbp_max = $tbp_min = $min_visit_max = $min_visit_min 
         = $last_max = $last_min =  $prod_ch_min = $prod_ch_max = $abs = 0;
        
@@ -38,12 +38,15 @@ class CampaignManagerController extends Controller
         $abs_max = $request->input('abs_max'); 
         $abs_min = $request->input('abs_min');
 
+
+        $abv_min = $request->input('abv_min');
+        $abv_min = $request->input('abv_min');
         // dd($request->all());
         // query for abs starts 
         
-        $sql =   "SELECT*FROM `sales_msts` WHERE `Customer_Id` IS NOT NULL AND `Total_Qty`>= ? AND `Total_Qty`<= ? ";
+        $sql =   "SELECT*FROM `sales_msts` WHERE `Customer_Id` IS NOT NULL AND `Total_Qty`>= ? AND `Total_Qty`<= ? AND  `Total_Value`>= ? AND `Total_Value` <= ?";
 
-        $abs = DB::select($sql,[$abs_min,$abs_max]);
+        $abs = DB::select($sql,[$abs_min,$abs_max,$abv_min,$abv_max]);
 
         // query for abs ends 
      
