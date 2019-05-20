@@ -29,7 +29,7 @@ class CampaignManagerController extends Controller
         
 
 
-        // dd($request->all());
+       ssdd($request->all());
         $abs_max = $abs_min = $abv_min =$abv_max = $tbp_max = $tbp_min = $min_visit_max = $min_visit_min 
         = $last_max = $last_min =  $prod_ch_min = $prod_ch_max = $abs = 0;
        
