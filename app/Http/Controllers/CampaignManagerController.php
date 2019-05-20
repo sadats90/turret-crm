@@ -19,7 +19,7 @@ class CampaignManagerController extends Controller
      */
     public function index(Request $request)
     {
-
+ss
         $brand = Brand::all();
         $size = Size::all();
         $gender = Gender::all();
