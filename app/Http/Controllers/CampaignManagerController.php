@@ -8,6 +8,7 @@ use App\Category;
 use App\SubCategory;
 use App\Size;
 use App\Gender;
+use App\Area;
 use Illuminate\Support\Facades\DB;
 
 class CampaignManagerController extends Controller
@@ -26,7 +27,8 @@ class CampaignManagerController extends Controller
         $cat= Category::all();
         $subcat = SubCategory::all();
         $colors = array("Red","Blue","Yellow","Green","Black","Brown","Grey","White");
-        
+        $area = Area::all();
+
 
 
         // dd($request->all());
@@ -41,10 +43,27 @@ class CampaignManagerController extends Controller
 
         $abv_min = $request->input('abv_min');
         $abv_min = $request->input('abv_min');
-        // dd($request->all());
+        
+        
+        
         // query for abs starts 
         
         $sql =   "SELECT*FROM `sales_msts` WHERE `Customer_Id` IS NOT NULL AND `Total_Qty`>= ? AND `Total_Qty`<= ? AND  `Total_Value`>= ? AND `Total_Value` <= ?";
+
+
+       // $sql = "SELECT * FROM `customer_msts`
+       //  LEFT JOIN `sales_msts` ON `sales_msts`.`Customer_Id`=`customer_msts`.`Customer_Id` and `sales_msts`.`Company_Code` = `customer_msts`.`Company_Code`
+       //  LEFT JOIN `sales_chds`  ON `sales_msts`.`sales_mst_code` = `sales_chds`.`Sales_chd_Code` and `sales_msts`.`Company_Code` = `sales_chds`.`Company_Code`
+       //  LEFT JOIN `category_msts` on `sales_chds`.`Category_Code` = `category_msts`.`Category_Code`
+       //  LEFT JOIN `gender_msts` on `customer_msts`.`Customer_Gender` = `gender_msts`.`Gender_mstID`
+       //  WHERE `sales_msts`.`Customer_Id` IS NOT NULL AND `sales_msts`.`Total_Qty`>= 1 AND 
+       //  `sales_msts`.`Total_Qty`<= 300 AND  `sales_msts`.`Total_Value`>= 0 AND `sales_msts`.`Total_Value` <= 999999
+       //  AND `customer_msts`.`Customer_Gender` = "Male" 
+       //  ORDER BY `customer_msts`.`Customer_Id` ASC";
+
+
+
+
 
         $abs = DB::select($sql,[$abs_min,$abs_max,$abv_min,$abv_max]);
 
@@ -53,7 +72,7 @@ class CampaignManagerController extends Controller
         return view ('slider',["brand"=>$brand,"size"=>$size,"gender"=>$gender,"cat"=>$cat,"subcat"=>$subcat,"colors"=>$colors,"abs_max"=>$abs_max,"abs_min"=>$abs_min, "abv_min"=> $abv_min,
            "abv_max" =>$abv_max, "tbp_max"=> $tbp_max,"tbp_min" => $tbp_min,"min_visit_max" => $min_visit_max,
            "min_visit_min"=> $min_visit_min, "last_max"
-           => $last_max,"last_min" => $last_min,"prod_ch_min" =>$prod_ch_min,"prod_ch_max" => $prod_ch_max,"abs"=>$abs]);
+           => $last_max,"last_min" => $last_min,"prod_ch_min" =>$prod_ch_min,"prod_ch_max" => $prod_ch_max,"abs"=>$abs,"area"=>$area]);
 
 
            

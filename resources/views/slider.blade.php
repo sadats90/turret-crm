@@ -94,7 +94,7 @@
                    <select >
                     <option >Selct</option>
                     @foreach($gender as $g)
-                    <option>{{$g->GenderNAME}}</option>
+                    <option value=>{{$g->GenderNAME}}</option>
                     @endforeach
 
                   </select>
@@ -212,19 +212,19 @@
             </div> -->
             <div class="col-md-6">
 
-              <label>Brand</label>
+              <label>Area</label>
 
               <select>
                 <option>Select</option>
-                @foreach($brand as $b)
-                <option>{{$b->Brand_Name}}</option>
+                @foreach($area as $a)
+                <option>{{$a->Area_Name}}</option>
                 @endforeach
               </select>
 
             </div>
             <div class="col-md-6">
 
-             <label>Category</label>
+             <label>District</label>
              <select>
               <option >Select</option>
               @foreach($cat as $c)
@@ -235,7 +235,7 @@
           </div>
           <div class="col-md-6">
 
-           <label>Sub Cat</label>
+           <label>Store</label>
            <select>
             <option >Select</option>
             @foreach($subcat as $sc)
