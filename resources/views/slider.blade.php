@@ -91,10 +91,10 @@
                   <div class="col-md-4">
 
                    <label>Gender</label>
-                   <select >
-                    <option >Selct</option>
+                   <select name="gender">
+                    <option >Select</option>
                     @foreach($gender as $g)
-                    <option value=>{{$g->GenderNAME}}</option>
+                    <option value="{{$g->GenderNAME}}" >{{$g->GenderNAME}}</option>
                     @endforeach
 
                   </select>
@@ -103,12 +103,10 @@
                 <div class="col-md-4">
 
                  <label>Size</label>
-
-                 <select>
-
+                 <select name="size">
                   <option>Select</option>
                   @foreach($size as $s)
-                  <option>{{$s->Size_Code}}</option>
+                  <option value="{{$s->Article_Size_Code}}">{{$s->Article_Size_Code}}</option>
                   @endforeach
                 </select>
 
@@ -122,7 +120,7 @@
                 @foreach($colors as $color)
                 <option>Select</option>
                 <option>
-                  {{$color}}
+                  {{$color->Color}}
                 </option>
                 @endforeach
               </select>
@@ -135,7 +133,7 @@
               <select>
                 <option>Select</option>
                 @foreach($brand as $b)
-                <option>{{$b->Brand_Name}}</option>
+                <option>{{$b->Brand_mstID}}</option>
                 @endforeach
               </select>
 
@@ -146,7 +144,7 @@
              <select>
               <option >Select</option>
               @foreach($cat as $c)
-              <option>{{$c->Category_Name}}</option>
+              <option value="$c->Category_Code">{{$c->Category_Name}}</option>
               @endforeach
             </select>
 
@@ -157,7 +155,7 @@
            <select>
             <option >Select</option>
             @foreach($subcat as $sc)
-            <option>{{$sc->Sub_category_Name}}</option>
+            <option value="$sc->Sub_category_mstID">{{$sc->Sub_category_Name}}</option>
             @endforeach
           </select>
 
@@ -188,8 +186,8 @@
          <label>Gender</label>
          <select >
           <option >Selct</option>
-          @foreach($gender as $g)
-          <option>{{$g->GenderNAME}}</option>
+          @foreach($d_gender as $g)
+          <option>{{$g->Customer_Gender}}</option>
           @endforeach
 
         </select>
@@ -222,6 +220,7 @@
               </select>
 
             </div>
+            <!-- here goes the code -->
             <div class="col-md-6">
 
              <label>District</label>
@@ -245,72 +244,67 @@
 
         </div>
 
-
       </div>
       <input class="btn btn-primary btn-sm" type="submit" name="submit" value="Submit">
       <!-- <button type="submit" value="submit" class="btn btn-primary">Deploy Filters</button> -->
     </form>
   </div>
-  </div>
+</div>
 
-  </div>
-  </div>
+</div>
+</div>
 
 
-  <!-- table -->
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th scope="col">ID</th>
-        <th scope="col">Name</th>
-        <th scope="col">ABS</th>
-        <th scope="col">ABV</th>
-        <th scope="col">Total Buy</th>
-        <th scope="col">Gender</th>
-        <th scope="col">Location</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td></td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
-  <!-- table -->
-  </div>
+<!-- table -->
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">ABS</th>
+      <th scope="col">ABV</th>
+      <th scope="col">Total Buy</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      
+    </tr>
+  </tbody>
+</table>
+<!-- table -->
+</div>
 <div class="container">
   @foreach($abs as $s)
 
-    <?php echo $s->Customer_Id;  ?><br>  <br />
+  <?php echo $s->Customer_Id;  ?><br>  <br />
   @endforeach
 </div>
-  </body>
+</body>
 
-  <style type="text/css">
-    .wrapper {
-      margin-right: auto; /* 1 */
-      margin-left:  auto; /* 1 */
+<style type="text/css">
+  .wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
 
-      max-width: 920px; /* 2 */
-      height: 60%;
-      padding-right: 10px; /* 3 */
-      padding-left:  10px; /* 3 */
-    }
-  </style>
-  </html>
+    max-width: 920px; /* 2 */
+    height: 60%;
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  }
+</style>
+</html>
