@@ -39,7 +39,7 @@
                 </div>
                 <div data-role="rangeslider">
                   <label for="price-min">Average Basket Value:</label>
-                  <input type="range" name="abv_min"  value="200" min="0" max="999999">
+                  <input type="range" name="abv_min"  value="0" min="0" max="999999">
                   <label for="price-max">Price:</label>
                   <input type="range" name="abv_max"  value="800" min="0" max="999999">
                 </div>
@@ -116,11 +116,11 @@
 
 
                <label>Color</label>
-               <select  name="sort" id="sort">
-                @foreach($colors as $color)
-                <option>Select</option>
-                <option>
-                  {{$color->Color}}
+               <select  name="color" id="sort">
+                @foreach($color as $cc)
+                <option >Select</option>
+                <option value="{{$cc->Color}}">
+                  {{$cc->Color}}
                 </option>
                 @endforeach
               </select>
@@ -130,10 +130,10 @@
               <label>Brand</label>
 
 
-              <select>
+              <select name="brand">
                 <option>Select</option>
                 @foreach($brand as $b)
-                <option>{{$b->Brand_mstID}}</option>
+                <option value="{{$b->Brand_mstID}}">{{$b->Brand_mstID}}</option>
                 @endforeach
               </select>
 
@@ -141,10 +141,11 @@
             <div class="col-md-4">
 
              <label>Category</label>
-             <select>
+
+             <select name="cat">
               <option >Select</option>
-              @foreach($cat as $c)
-              <option value="$c->Category_Code">{{$c->Category_Name}}</option>
+              @foreach($cat as $ca)
+              <option value="{{$ca->Category_Name}}">{{$ca->Category_Name}}</option>
               @endforeach
             </select>
 
@@ -152,10 +153,10 @@
           <div class="col-md-4">
 
            <label>Sub Category</label>
-           <select>
+           <select name="subcat">
             <option >Select</option>
             @foreach($subcat as $sc)
-            <option value="$sc->Sub_category_mstID">{{$sc->Sub_category_Name}}</option>
+            <option value="{{$sc->Sub_category_Name}}">{{$sc->Sub_category_Name}}</option>
             @endforeach
           </select>
 
@@ -184,10 +185,10 @@
         <div class="col-md-6">
 
          <label>Gender</label>
-         <select >
+         <select name="d_gender">
           <option >Selct</option>
           @foreach($d_gender as $g)
-          <option>{{$g->Customer_Gender}}</option>
+          <option value=>{{$g->Customer_Gender }}</option>
           @endforeach
 
         </select>
@@ -212,10 +213,10 @@
 
               <label>Area</label>
 
-              <select>
+              <select name="area">
                 <option>Select</option>
                 @foreach($area as $a)
-                <option>{{$a->Area_Name}}</option>
+                <option value="{{$a->Area_Name}}">{{$a->Area_Name}}</option>
                 @endforeach
               </select>
 
@@ -224,21 +225,21 @@
             <div class="col-md-6">
 
              <label>District</label>
-             <select>
+             <select name="store_dist">
               <option >Select</option>
-              @foreach($cat as $c)
-              <option>{{$c->Category_Name}}</option>
+              @foreach($store_d as $std)
+              <option value="{{$std->Store_District}}">{{$std->Store_District}}</option>
               @endforeach
-            </select>
+              </select>
 
           </div>
           <div class="col-md-6">
 
            <label>Store</label>
-           <select>
+           <select name="stores">
             <option >Select</option>
-            @foreach($subcat as $sc)
-            <option>{{$sc->Sub_category_Name}}</option>
+            @foreach($store as $st)
+            <option>{{$st->Store_Code}}</option>
             @endforeach
           </select>
 
@@ -290,8 +291,7 @@
 </div>
 <div class="container">
   @foreach($abs as $s)
-
-  <?php echo $s->Customer_Id;  ?><br>  <br />
+  <?php echo $s->Customer_Name;  ?><br>  <br />
   @endforeach
 </div>
 </body>
